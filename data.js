@@ -1,4 +1,4 @@
-export default function PortfolioData() {
+const PortfolioData = () => {
     return [
       {
         title: "Portfolio1",
@@ -55,3 +55,4 @@ export default function PortfolioData() {
     ];
   }
   
+  module.exports = PortfolioData

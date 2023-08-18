@@ -5,7 +5,7 @@ const PortfolioData = require('./data');
 
 // Middleware to handle CORS
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'https://weary-turtleneck-pig.cyclic.cloud'); // Replace * with your frontend's domain
+  res.header('Access-Control-Allow-Origin', 'https://weary-turtleneck-pig.cyclic.cloud/portfolio'); // Replace * with your frontend's domain
   res.header(
     'Access-Control-Allow-Headers',
     'Origin, X-Requested-With, Content-Type, Accept'

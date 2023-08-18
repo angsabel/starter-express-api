@@ -1,7 +1,16 @@
-const express = require('express')
-const app = express()
-app.all('/', (req, res) => {
-    console.log("Just got a request!")
-    res.send('Yo!')
-})
-app.listen(process.env.PORT || 3000)
+const express = require('express');
+const app = express();
+
+const PortfolioData = require('./PortfolioData');
+
+// Define a route to get portfolio data
+app.get('/portfolio', (req, res) => {
+  const portfolioData = PortfolioData();
+  res.json(portfolioData);
+});
+
+// Start the server
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});

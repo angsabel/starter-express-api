@@ -58,7 +58,7 @@ const PortfolioData = () => {
     {
       title: "Uku-Uku App: The Payroll Management",
       description: "An app for efficient payroll management, built with Javascript, React, and Chakra UI.",
-      cover: "https://picsum.photos/1920/1176",
+      cover: "https://picsum.photos/1920/1376",
       language: "Javascript",
       techStack: ["react", "javascript", "chakra-ui"],
       url: "https://github.com/MA-Ahmad/notebook",

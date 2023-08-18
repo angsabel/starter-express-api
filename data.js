@@ -36,7 +36,7 @@ const PortfolioData = () => {
     {
       title: "Backend API of Web Blog",
       description: "A notebook app aiding in daily work by enabling note creation, built with Javascript, React, and Chakra UI.",
-      cover: "https://picsum.photos/1920/1076",
+      cover: "https://picsum.photos/1920/1096",
       language: "Javascript",
       techStack: ["react", "javascript", "chakra-ui"],
       url: "https://github.com/MA-Ahmad/notebook",
@@ -58,7 +58,7 @@ const PortfolioData = () => {
     {
       title: "Uku-Uku App: The Payroll Management",
       description: "An app for efficient payroll management, built with Javascript, React, and Chakra UI.",
-      cover: "https://picsum.photos/1920/1076",
+      cover: "https://picsum.photos/1920/1176",
       language: "Javascript",
       techStack: ["react", "javascript", "chakra-ui"],
       url: "https://github.com/MA-Ahmad/notebook",
@@ -69,7 +69,7 @@ const PortfolioData = () => {
     {
       title: "Docs Generator",
       description: "A tool for generating documents, implemented in Python.",
-      cover: "https://picsum.photos/1920/1076",
+      cover: "https://picsum.photos/1920/1176",
       language: "Python",
       techStack: ["python"],
       url: "https://github.com/MA-Ahmad/notebook",

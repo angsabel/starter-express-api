@@ -4,7 +4,7 @@ const app = express();
 
 const PortfolioData = require('./data');
 
-app.use(cors());
+// app.use(cors());
 
 app.get('/portfolio', (req, res) => {
   const portfolioData = PortfolioData();

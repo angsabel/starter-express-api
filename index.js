@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const PortfolioData = require('./PortfolioData');
+const PortfolioData = require('./data');
 
 // Define a route to get portfolio data
 app.get('/portfolio', (req, res) => {

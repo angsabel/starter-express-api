@@ -25,7 +25,7 @@ const PortfolioData = () => {
     {
       title: "Crea-te: The Web Blog",
       description: "A web blog crafted using Next.js, Chakra UI, and Javascript to showcase my work.",
-      cover: "angsabel/starter-express-api/public/create.png",
+      cover: "public/create.png",
       language: "Javascript",
       techStack: ["react", "chakra-ui"],
       url: "https://github.com/febrydjr/Crea-te",
